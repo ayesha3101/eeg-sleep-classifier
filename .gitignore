@@ -1,0 +1,21 @@
+# Data (large,not tracked in git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+.venv/
+
+# Results (regenerable artifacts, keep repo light)
+results/*.png
+results/*.pkl
+!results/.gitkeep
+
+# OS
+.DS_Store
