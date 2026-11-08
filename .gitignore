@@ -13,7 +13,6 @@ venv/
 .venv/
 
 # Results (regenerable artifacts, keep repo light)
-results/*.png
 results/*.pkl
 !results/.gitkeep
 
